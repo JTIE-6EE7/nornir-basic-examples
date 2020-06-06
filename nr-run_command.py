@@ -23,7 +23,6 @@ def run_command(task):
 def main():
     # initialize The Norn
     nr = InitNornir()
-    # filter The Norn
     nr.run(task=run_command)
     # run The Norn to run command
 
