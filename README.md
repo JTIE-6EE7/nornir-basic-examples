@@ -1,5 +1,3 @@
-# bgp_route_mapper
+# nr-run_command.py
 
-Script to update community strings in BGP route maps.
-
-New community value is found in the Nornir groups.yaml
+Simple example of running a command on network devices and printing the output
