@@ -23,9 +23,9 @@ def run_command(task):
 def main():
     # initialize The Norn
     nr = InitNornir()
-    nr.run(task=run_command)
     # run The Norn to run command
-
+    nr.run(task=run_command)
+   
 
 if __name__ == "__main__":
     main()
