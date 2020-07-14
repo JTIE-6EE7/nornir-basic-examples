@@ -17,7 +17,7 @@ def run_command(task):
         task=netmiko_send_command, 
         command_string=cmd
     )
-
+    # assign output to host variable
     task.host["version"] = output.result
 
 def print_version(task):
