@@ -21,7 +21,9 @@ def run_command(task):
     task.host["version"] = output.result
 
 def print_version(task):
+    # print inventory hostname
     print(task.host)
+    # print previously assigned output
     print(task.host["version"])
     print()
 
